@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boxHelper
+{
+	color:#fff;
+	background-color:#000;
+	text-align:center;
+}
+
+@font-face {
+    font-family: eurostileBold;
+	src:url(../fonts/Eurostile%20LT%20Bold.ttf);
+}
+@font-face {
+    font-family: eurostile;
+	src:url(../fonts/Eurostile%20LT%20Medium.ttf);
+}
+
+.border
+{
+	border:medium;
+	border-color:#707071;
+}
+
+.bold
+{
+	font-family: eurostileBold;
+}
+
+.white
+{
+	color:white;
+	font-size:55px;
+}
+
+.grey
+{
+	color:#b6b6b6;
+	font-size:25px;
+}
+
+.pad
+{
+	padding-left:70px;
+}
+
+body
+{
+	background-image:url(../img/dark_wall.png);
+	font-family: eurostile;
+}
+
+h2,h3
+{
+	text-shadow: 2px 2px #101010;
+}
+
+p
+{
+	color:#b6b6b6;
+	font-size:20px;
+	text-shadow: 2px 2px #101010;
+}
+
+#video
+{
+	text-align:center;
+}
+
+video
+{
+	width:60%;
+	margin:0 auto;
+	border: 7px solid #6e6d6e;
+}
+
+
+.box
+{
+	text-align:center;
+	background-color:#d9d9d9;
+	border: 7px solid #6e6d6e;
+	width:450px;
+	height:450px;
+}
+
+.box img
+{
+	margin:0 auto;
+}
+
+.box ul li
+{
+	list-style:none;
+	padding-top:40px;
+	padding-bottom:20px;
+	text-align:left;
+}
+
+.box ul li a
+{
+	font-size:24px;
+
+}
+
+.smallFont
+{
+	font-size:18px;
+}
+
+.hide{
+	display:none;
+}
+
+.show{
+	display:block;
+}
